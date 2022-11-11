@@ -1,8 +1,13 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Input number: ");
+Console.WriteLine("Input 2 numbers: ");
 
-int Number = Convert.ToInt32( Console.ReadLine() );
-
-Console.WriteLine( "Square " + Number + " is " + (Number * Number) );
+int Number1 = Convert.ToInt32( Console.ReadLine() );
+int Number2 = Convert.ToInt32( Console.ReadLine() );
+if (Number1 == Number2 * Number2) {
+    Console.WriteLine( "Yes" );
+} else
+{
+    Console.WriteLine( "No" );
+}
 
 
