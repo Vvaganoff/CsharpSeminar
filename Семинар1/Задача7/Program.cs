@@ -3,4 +3,4 @@ Console.WriteLine( "Введите число" );
 
 int UserNumber = Convert.ToInt32( Console.ReadLine() );
 
-{Console.WriteLine(%"" UserNumber % 10);}
+Console.WriteLine(UserNumber % 10);
